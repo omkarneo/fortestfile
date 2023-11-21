@@ -3,7 +3,7 @@ const app = express();
 
 const port = 8080;
 // app.use(express.static("public"))
-app.get("/.well-known/assetslinks.json", (req, res) => {
+app.get("/.well-known/assetlinks.json", (req, res) => {
     res.send([
         {
             "relation": ["delegate_permission/common.handle_all_urls"],
